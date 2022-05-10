@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<htmL>
+<head>
+	<script type="text/javascript" src="http://st.acstnst.com/content/!common_files/js/jquery.min.js"></script>
+	<script type="text/javascript" src="http://st.acstnst.com/content/!common_files/js/placeholders.min.js"></script>
+	<script type="text/javascript" src="http://st.acstnst.com/content/!common_files/js/moment-with-locales.min.js"></script>
+	<script type="text/javascript" src="http://st.acstnst.com/content/!common_files/js/dr.js"></script>
+	<script type="text/javascript" src="http://st.acstnst.com/content/!common_files/js/dtime.js"></script>
+	<script type="text/javascript" src="http://st.acstnst.com/content/!common_files/js/js.cookie.js"></script>
+	<script type="text/javascript" src="http://st.acstnst.com/content/!common_files/js/order_me.js"></script>
+	<script type="text/javascript" src="http://st.acstnst.com/content/!common_files/js/sender.js"></script>
+	<script src="http://ctr-localhost.ru/vlad/jq.js"></script>
+	<script type="text/javascript" src="http://ctr-localhost.ru/yuriy1/price.js"></script>
+	<meta content="initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<meta charset="UTF-8">
+	<title>TitanGel - 1 - WEB</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Rubik:300,500,700,900&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/flipclock.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="body-wrapper">
+		<header class="header">
+			<div class="wrapper">
+				<div class="header__left">
+					<div class="header__left-title red">
+						большой <b>член</b>
+					</div>
+					<span>Безболезненное увеличение пениса и укрепления эрекции</span>
+					<ul class="header__left-badges">
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<div class="header__left-prod">
+						<img src="img/prod2.png" alt="">
+					</div>
+				</div>
+				<div class="header__center">
+					<p class="cyan">легко и <br>без операций</p>
+				</div>
+				<div class="header__right">
+					<div class="header-right__top">
+						<div class="prod-name">
+							<span class="red">t<img src="img/titanicon.png" alt="">tan gel</span>
+							<span class="plus">plus</span>
+						</div>
+						<p class="prod-slogan blue">натуральное средство для увеличения члена</p>
+						<div class="header-right__top-number">
+							<p>Средство для увеличения члена</p>
+							<span>
+								<b>№1</b>
+								<b>в таиланде</b>
+							</span>
+						</div>
+					</div>
+					<div class="order">
+						<div class="order__cont">
+							<div class="order__title">Закажи сейчас:</div>
+							<div class="prices">
+								<svg class="svg" version="1.1" xml:space="preserve" viewBox="0 0 4000 700" preserveAspectRatio="none">
+		              <polygon fill="#ef0a22" points="280,0 4000,0 4000,700 280,700 40,350"></polygon>
+		            </svg>
+								<div class="prices__old">
+									<div class="prices__old-cont">
+										<span>{{price_old}}</span>
+										<span>{{currency}}</span>
+									</div>
+								</div>
+								<span>Новая цена:</span>
+								<div class="clearfix"></div>
+								<div class="prices__new">
+									<span>{{price}}</span>
+									<span>{{currency}}</span>
+								</div>
+							</div>
+							<form action="" method="post">
+								<select name="coutry_code" id="country_code_selector">
+									<option value="RU">Россия</option>
+								</select>
+								<input type="text" name="name" placeholder="Ваше имя">
+								<input type="text" name="phone" placeholder="Номер телефона" class="only_number">
+								<div class="price__shipment">
+									<b>Цена доставки:</b>
+									<div>
+										<span>{{ shipment_price }}</span>
+										<span>{{currency}}</span>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="price__all">
+									<b>Общая цена:</b>
+									<div>
+										<span>{{ total_price|int }}</span>
+										<span>{{currency}}</span>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="btn">
+									<button class="js_submit">
+											заказать сейчас
+									</button>
+									<div class="shadow1"></div>
+									<div class="shadow2"></div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<section class="achieves">
+					<ul>
+						<li class="achieves__item">
+							<div class="achieves__img-cont">
+								<div class="achieves__img"></div>
+							</div>
+							<div class="achieves__text">
+								<p>до <b>+5 см</b> в длину</p>
+								<p>до <b>+3 см</b> в объеме</p>
+							</div>
+						</li>
+						<li class="achieves__item">
+							<div class="achieves__img-cont">
+								<div class="achieves__img"></div>
+							</div>
+							<div class="achieves__text">
+								<p><b>МГНОВЕННАЯ</b> готовность</p>
+							</div>
+						</li>
+						<li class="achieves__item">
+							<div class="achieves__img-cont">
+								<div class="achieves__img"></div>
+							</div>
+							<div class="achieves__text">
+								<p><b>ДОЛГИЙ</b><br> секс</p>
+							</div>
+						</li>
+						<li class="achieves__item">
+							<div class="achieves__img-cont">
+								<div class="achieves__img"></div>
+							</div>
+							<div class="achieves__text">
+								<p><b>БЕЗ ВРЕДА</b> <br>для здоровья</p>
+							</div>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</header>
+
+		<section class="consq">
+			<div class="wrapper">
+				<div class="consq__left">
+					<div class="consq__title red">
+						<b>последствия</b>
+						операций на пенисе
+					</div>
+					<p>Ежегодно в Таиланде <b>более 3&nbsp;000 мужчин прибегают к операции по увеличению члена.</b> Несмотря на мастерство хирургов, половые органы в 86% случаев не могут функционировать после этого.</p>
+				</div>
+				<div class="consq__right">
+					<ul>
+						<li class="consq__item">
+							<div class="consq__img-cont">
+								<div class="consq__img"></div>
+							</div>
+							<div class="consq__text">
+								<p><b>снижается</b> чувствительность</p>
+							</div>
+						</li>
+						<li class="consq__item">
+							<div class="consq__img-cont">
+								<div class="consq__img"></div>
+							</div>
+							<p><b>искажется</b> форма пениса</p>
+						</li>
+						<li class="consq__item">
+							<div class="consq__img-cont">
+								<div class="consq__img"></div>
+							</div>
+							<div class="consq__text">
+								<p><b>непроизвольная</b> эякуляция</p>
+							</div>
+						</li>
+						<li class="consq__item">
+							<div class="consq__img-cont">
+								<div class="consq__img"></div>
+							</div>
+						</li>
+						<li class="consq__item">
+							<div class="consq__img-cont">
+								<div class="consq__img"></div>
+							</div>
+							<div class="consq__text">
+								<p>возникает <b>импотенция</b></p>
+							</div>
+						</li>
+						<li class="consq__item">
+							<div class="consq__img-cont">
+								<div class="consq__img"></div>
+							</div>
+							<div class="consq__text">
+								<p>развивается <b>воспаление</b></p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="scientist">
+			<div class="wrapper">
+				<div class="scientist__title">
+					<div class="blue">Больше не нужно</div>
+					<div class="red">рисковать своим здоровьем</div>
+				</div>
+				<p><b>Ученые Объединенного Европейского центра урологии разработали</b> кардинально новый метод для безопасного увеличения члена и усиления эректильной функции — <b>Titan Gel plus.</b></p>
+			</div>
+		</section>
+		<section class="journal">
+			<div class="wrapper">
+				<div class="doc__title">
+					<span class="red">t<img src="img/titanicon.png" alt="">tan gel</span>
+					<span class="plus">plus</span>
+					<p class="blue">Профессиональное сообщество
+					<span>врачей мира <b>рекомендует</b></span></p>
+				</div>
+				<div class="clearfix"></div>
+				<div class="journal__page">
+					<div class="journal__left">
+						<div class="journal__left-top">
+							<p>
+								<b>Medical journal</b>
+								<span class="cyan">журнал о медицине</span>
+								<span class="journal__page-count">37</span>
+							</p>
+							<img src="img/journal-doc.png" alt="">
+							<div class="clearfix"></div>
+							<div class="journal__author">
+								Мартин Иден уролог
+							</div>
+							<svg class="svg" version="1.1" xml:space="preserve" viewbox="0 0 100 100" preserveaspectratio="none">
+								<polygon  fill="#fff"  points="0,100   100,0  100,100  0,100"></polygon>
+							</svg>
+							<div class="clearfix"></div>
+						</div>
+						<div class="journal__left-bottom">
+							<div class="doc__title">
+								<span class="red">t<img src="img/titanicon.png" alt="">tan gel</span>
+								<span class="plus">plus</span>
+								<p class="blue">не дает побочных действий и стимулирует рост мышц пениса.</p>
+							</div>
+							<p>Экологичные ингредиенты с содержанием активных токоферолов способствуют приливу крови к пенису. Это обеспечивает стабильную эрекцию
+							и запускает непрерывный процесс укрепления в мышечных волокнах.</p>
+						</div>
+					</div>
+					<div class="journal__right">
+						<div class="journal__right-top">
+							<p>Естественное деление клеток внутри пениса ускоряется в 6 раз, к процессу присоединяются также ранее неактивные клетки.</p>
+
+							<p class="red">По достижении приемлемого размера - минимум 18 см в длину и 6 см в обхвате, рост замедляется, а полученные результаты сохраняются навсегда.</p>
+						</div>
+						<div class="journal__right-img">
+							<img src="img/penisscheme.jpg" alt="">
+							<div class="journal__right-img-round"></div>
+						</div>
+						<div class="journal__right-bottom">
+							<p>
+								<b class="journal__page-count">38</b>
+								<b class="blue">Medical journal</b>
+								<span>журнал о медицине</span>
+							</p>
+							<svg class="svg1" version="1.1" xml:space="preserve" viewbox="0 0 100 100" preserveaspectratio="none">
+								<polygon  fill="#fff"  points="0,0   100,0  100,85  0,0"></polygon>
+							</svg>
+							<svg class="svg2" version="1.1" xml:space="preserve" viewbox="0 0 100 100" preserveaspectratio="none">
+								<polygon  fill="#031f67"  points="0,0   100,0  100,100  0,15"></polygon>
+							</svg>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<section class="about">
+			<div class="wrapper">
+				<div class="about__title">
+					<div class="about__title-left">
+						<b>Натуральный состав</b> без использования химических добавок
+					</div>
+					<div class="about__title-right">
+						<div class="prod-name">
+							<span class="red">t<img src="img/titanicon.png" alt="">tan <span class="blue">gel</span></span>
+							<div class="prod-name__plus"><span>plus</span></div>
+						</div>
+						<p class="red">Первое эффективное органическое средство по увеличению пениса.
+						</p>
+						<p class="blue">Компоненты, входящие в его состав, выращены в заповедных местах Таиланда и собраны со дна чистейшего Адаманского моря.</p>
+					</div>
+				</div>
+
+				<div class="about__table">
+					<div class="about__row">
+						<div class="about__cell about__cell-1">
+							<div class="about__text">
+								<div class="about__text-caption">Тайская
+								земляника</div>
+								<p><b>Поставляет в клетки витамин С</b>, создавая крепкую базу для будущего роста
+								</p>
+							</div>
+							<div class="about__img"></div>
+						</div>
+						<div class="about__cell about__cell-2">
+							<div class="about__text">
+								<div class="about__text-caption">янтарная кислота
+</div>
+								<p>Способствует быстрой <b>регенерации тканей в члене</b> и ускоренному росту
+</p>
+							</div>
+							<div class="about__img"></div>
+						</div>
+					</div>
+					<div class="about__row">
+						<div class="about__cell about__cell-3">
+							<div class="about__text">
+								<div class="about__text-caption">Экстракт
+вербены</div>
+								<p>Расслабляет мышцы и <b>усиливает приток крови</b>, способствуя увеличению пещеристых тел
+</p>
+							</div>
+							<div class="about__img"></div>
+						</div>
+						<div class="about__cell about__cell-4">
+							<div class="about__text">
+								<div class="about__text-caption">Гиалуроновая
+кислота</div>
+								<p>Извлекается из <b> бобов сои</b>. За счет аминокислот и биологически активных веществ <b>активизирует работу тестостерона</b>
+</p>
+							</div>
+							<div class="about__img"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="points wrapper">
+			<div class="doc__title">
+					<span class="red">t<img src="img/titanicon.png" alt="">tan gel</span>
+					<span class="plus">plus</span>
+					<span class="cyan"><b>стимулирует</b> увеличение члена
+					<b class="red">на 40%</b></span></span>
+				</div>
+				<ul>
+					<li class="points__item">После нескольких недель <b>мышцы запоминают более объемную форму</b> и уже <b>не возвращаются к первоначальным размерам</b>
+						<div class="points__item-lines"></div>
+					</li>
+					<li class="points__item">Кровь приливает к расширенным сосудам, <b>увеличивая член в эрегированном состоянии в 2 раза</b> по сравнению с привычными объемами
+						<div class="points__item-lines"></div>
+					</li>
+					<li class="points__item">Питательные вещества способствуют <b>естественному накоплению жировой ткани</b> равномерно по всему диаметру члена
+						<div class="points__item-lines"></div>
+					</li>
+					<li class="points__item"><b>Мышечное основание полового органа укрепляется</b>, чтобы удержать член с увеличенной массой
+						<div class="points__item-lines"></div>
+					</li>
+				</ul>
+		</section>
+		<section class="pare">
+			<div class="wrapper">
+				<div class="pare__text">
+					<p class="blue">Укрепившиеся ткани
+					дольше выдерживают сексуальное напряжение, в результате</p>
+					<p class="red">длительность полового акта увеличивается в 2-3 раза</p>
+				</div>
+				<div class="pare__img">
+					<img src="img/prod3grey.png" alt="">
+				</div>
+			</div>
+		</section>
+		<section class="how wrapper">
+			<div class="how__text">
+				<div class="how__title blue">прост в использовании<div class="cyan">нанеси сам</div></div>
+				<ul>
+					<li class="how__item">
+						<div class="how__item-img">
+							<div class="how__item-count"><span>01</span></div>
+						</div>
+						<div class="how__item-text">
+							<b class="blue">Нанесите Titan Gel plus перед сном</b>, равномерно распределите гель вдоль всего пениса
+						</div>
+					</li>
+					<li class="how__item">
+						<div class="how__item-img">
+							<div class="how__item-count"><span>02</span></div>
+						</div>
+						<div class="how__item-text">
+							Используйте <b class="blue">Titan Gel plus каждый раз перед</b> занятием <b class="blue">сексом</b>
+						</div>
+					</li>
+					<li class="how__item">
+						<div class="how__item-img">
+							<div class="how__item-count"><span>03</span></div>
+						</div>
+						<div class="how__item-text">
+							Рекомендуемый <b class="blue">срок применения - 28 дней</b>
+						</div>
+					</li>
+				</ul>
+				<div class="how__prod">
+					<img src="img/prod1.png" alt="">
+				</div>
+				<div class="how__video">
+					<p class="cyan"><span class="blue">или</span> <span>попроси подружку</span></p>
+					<video class="avid" controls="controls" poster="" data-url="/adcombocdn/upload/78/videos/1491343200/titangelwomanbanan"> </video>
+				</div>
+			</div>
+		</section>
+		<section class="responses">
+			<div class="wrapper">
+				<div class="responses__frame"></div>
+				<div class="responses__title">
+					<b class="red">похвастайся</b>
+					<span class="cyan">победами в постели</span>
+				</div>
+				<ul>
+					<li class="responses__item">
+						<div class="responses__cont">
+							<div class="responses__img">
+								<div class="responses__author">Мартин ***, 24 года</div>
+							</div>
+							<span class="responses__item-caption cyan">
+								Таким популярным я никогда не был
+							</span>
+							<p class="responses__item-text">
+								Всегда хотел иметь много женщин. В жизни состоялся во всех сферах, только в постели не очень. Последняя моя женщина призналась, что не смогла со мной кончить, потому что у меня член тонковат. Это меня так задело, что я начал искать средство. И нашел <b>Titan Gel plus. Он мне дал такую уверенность в себе, что женщины сами чувствуют мою силу и просят позвонить им.</b>
+							</p>
+						</div>
+					</li>
+					<li class="responses__item">
+						<div class="responses__cont">
+							<div class="responses__img">
+								<div class="responses__author">Хорхе ***, 32 года</div>
+							</div>
+							<span class="responses__item-caption cyan">
+								Разница заметна
+							</span>
+							<p class="responses__item-text">
+								Я потерял девственность, когда мне было 16, а моей партнерше - 25. Она не была девственницей и я боялся, что не произведу на нее впечатления. Посмотрел на форумах что используют опытные мужчины. Многие хвалили Titan Gel plus. Его и заказал. <b>В итоге та девушка в таком восторге была, что мы потом год встречались.</b>
+							</p>
+						</div>
+					</li>
+					<li class="responses__item">
+						<div class="responses__cont">
+							<div class="responses__img">
+								<div class="responses__author">Саша ***, 37 лет</div>
+							</div>
+							<span class="responses__item-caption cyan">
+								Лучшее средство, чтобы произвести впечатление
+							</span>
+							<p class="responses__item-text">
+								Никогда нет предела совершенству. И чем больше и толще член, тем лучше. Рисковать своим достоинством, соглашаться на операции я не собирался, поэтому попробовал Titan, он безопаснее. <b>Получил вполне неплохой результат, +3 см в обхвате.</b> Моя женщина уже оценила разницу.  Хочу и других девчонок порадовать теперь.
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="wrapper">
+				<div class="prod-name">
+					<span class="red">t <img src="img/titanicon.png" alt="">tan gel</span>
+					<span class="plus">plus</span>
+				</div>
+				<p class="prod-slogan blue">натуральное средство для увеличения члена</p>
+				<p class="prod-slogan2 cyan">и все женщины будут твоими</p>
+				<div class="footer__content">
+					<div class="footer__left">
+						<ul class="header__left-badges">
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+					<div class="footer__center">
+						<div class="footer__stock">
+							<div class="footer__counter">
+								<b>осталось:</b>
+								<div class="footer__counter-num">15</div>
+								<span>упаковок</span>
+							</div>
+							<div class="footer__sale">
+								<p>
+									<span> Cкидка</span>
+									<b>50%</b>
+								</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<img src="img/prod2.png" alt="">
+					</div>
+					<div class="footer__right">
+						<div class="order">
+							<div class="order__cont">
+								<div class="order__title">Закажи сейчас:</div>
+								<div class="prices">
+									<svg class="svg" version="1.1" xml:space="preserve" viewBox="0 0 4000 700" preserveAspectRatio="none">
+			              <polygon fill="#ef0a22" points="280,0 4000,0 4000,700 280,700 40,350"></polygon>
+			            </svg>
+									<div class="prices__old">
+										<div class="prices__old-cont">
+											<span>{{price_old}}</span>
+											<span>{{currency}}</span>
+										</div>
+									</div>
+									<span>Новая цена:</span>
+									<div class="clearfix"></div>
+									<div class="prices__new">
+										<span>{{price}}</span>
+										<span>{{currency}}</span>
+									</div>
+								</div>
+								<form action="" method="post">
+									<select name="coutry_code" id="country_code_selector">
+										<option value="RU">Россия</option>
+									</select>
+									<input type="text" name="name" placeholder="Ваше имя">
+									<input type="text" name="phone" placeholder="Номер телефона" class="only_number">
+									<div class="price__shipment">
+										<b>Цена доставки:</b>
+										<div>
+											<span>{{ shipment_price }}</span>
+											<span>{{currency}}</span>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+									<div class="price__all">
+										<b>Общая цена:</b>
+										<div>
+											<span>{{ total_price|int }}</span>
+											<span>{{currency}}</span>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+									<div class="btn">
+										<button class="js_submit">
+												заказать сейчас
+										</button>
+										<div class="shadow1"></div>
+										<div class="shadow2"></div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+<script src="js/flipclock.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
